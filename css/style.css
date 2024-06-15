@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+:root {
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Merriweather', serif;
+}
+
+* {
+    min-width: 0;
+    font: inherit;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img, video, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    min-height: 100dvh;
+    font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+    font-family: var(--font-secondary);
+    margin: 0;
+}
+
+p {
+   text-wrap: pretty;
+}
