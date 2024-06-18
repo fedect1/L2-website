@@ -35,3 +35,103 @@ h1, h2, h3, h4, h5, h6 {
 p {
    text-wrap: pretty;
 }
+
+header {
+    background-color: #111;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    background-image: url('../assets/img/logo.png');
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    background-color: #fff;
+    text-indent: -9999px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero{
+    max-width: 1040px;
+    width: 100%;
+    height: calc(80dvh - 83px);
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #f4f4f4;    
+}
+
+.text-main {
+    padding: 25% 0;
+    text-align: lef1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.text-main h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+
+
+.text-main p {
+    font-size: 1rem;
+    color: #757575;
+}
+
+.text-main a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
